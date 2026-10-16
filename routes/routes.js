@@ -5,6 +5,10 @@ router.get("/",(req,res)=>{
 	res.render("pages/index");
 });
 
+router.get("/docs/booking/categories",(req,res)=>{
+	res.render("pages/booking/categories");
+});
+
 //category 
 router.get('/booking/categories', bookingCategoriesController.getAllCategories);
 router.get('/booking/category/:id', bookingCategoriesController.getSingleCategory);
