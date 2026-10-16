@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bookie Api</title>
+	<link rel="icon" type="image/x-icon" href="/favicon.ico">
+	<!------------ DM Sans-------------->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+	<style>
+		body{
+			font-family: "DM Sans", sans-serif;
+			font-weight: 400;
+			font-style: normal;
+			background:#f9f9f9;
+		}
+		.box {
+		    border-radius:30px;
+			width:550px;
+			height:300px;
+			background:#FFF;
+			margin:auto;
+			position:absolute;
+			top:0px;
+			bottom:0px;
+			left:0px;
+			right:0px;
+		}
+		.box header {
+			padding:20px 30px;
+			border-bottom:1px solid #000;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+		}
+		.box header .logo {
+			display:flex;
+			gap:12px;
+		}
+		.box header .logo .icon {
+		   width:13px;
+		}
+		.box header .logo  img {
+			width:100%;
+		}
+		.box main {
+			padding:60px 30px;
+			text-align:center;
+		}
+		.box footer {
+		   font-size:12px;
+		   border-top:1px solid #000;
+		   padding:20px 30px;
+		   display:flex;
+		   flex-direction:row;
+		}
+		.box footer .copyright{
+		  flex-grow:1;
+		  font-size:13px;
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<header>
+			<div class="logo"><span class="icon"><img src="./images/logo-icon.svg"/></span><span class="text"><img src="./images/logo-text.svg"/></span></div>
+		</header>	
+		<main>
+			<p>Bookie api installed successfully.</p>
+		</main>
+		<footer>
+		    <div class="copyright">@2026 <strong>Bookie</strong>. All Rights Reserved.</div>
+			<div class="version">version 0.0.1</div>
+		</footer>
+	</div>
+</body>
+</html>
